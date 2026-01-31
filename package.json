@@ -1,0 +1,10 @@
+{
+  "name": "vibecheckdocs-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "ingest": "node scripts/ingest_sample.js ./samples/sample-repo"
+  },
+  "dependencies": {}
+}
