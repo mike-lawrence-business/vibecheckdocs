@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>VibeCheckDocs — Concierge Audit: plausible/analytics</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;line-height:1.6;margin:40px}
+    h1,h2,h3{color:#111}
+    pre{background:#f6f8fa;padding:12px;border-radius:6px;overflow:auto}
+    .content{max-width:900px}
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>VibeCheckDocs — Concierge Audit: plausible/analytics</h1>
+    <p><strong>Date:</strong> 2026-01-31 18:03 UTC</p>
+    <p><strong>Repo:</strong> <a href="https://github.com/plausible/analytics">https://github.com/plausible/analytics</a></p>
+    <h2>Executive summary</h2>
+    <p>• Plausible Analytics is a mature, privacy-first open-source analytics project with clear positioning and excellent documentation in the README.</p>
+    <p>• The README shows no top-level contradictions; a deeper multi-file audit would require ingesting CONTRIBUTING, docs/, and other repository files.</p>
+    <h2>Key findings</h2>
+    <ol>
+      <li><strong>Documentation & clarity</strong>: README is thorough and links to docs and contributing guides.</li>
+      <li><strong>Developer experience & tech stack</strong>: Elixir/Phoenix backend, ClickHouse, React + Tailwind frontend — architecture is documented.</li>
+      <li><strong>Product / presentation</strong>: Strong privacy messaging and trust signals.</li>
+      <li><strong>Opportunities</strong>: Add a short demo screenshot, a "common pitfalls" section in CONTRIBUTING, and CI badge visibility.</li>
+    </ol>
+    <h2>Actionable recommendations</h2>
+    <ul>
+      <li>Attach this one-page audit to outreach messages to increase perceived value.</li>
+      <li>Offer a free 1-repo audit targeted at maintainers, emphasizing quick wins.</li>
+      <li>Capture a short dashboard screenshot once preview is available for outreach.</li>
+    </ul>
+    <h2>Next steps</h2>
+    <ol>
+      <li>Run a full ingest across README, CONTRIBUTING, docs/, CHANGELOG for detailed contradictions (requires Supabase service key for upsert at scale).</li>
+      <li>If maintainers request the PDF, generate from this HTML (open in browser → Print → Save as PDF) and send as the concierge deliverable.</li>
+    </ol>
+    <h2>Notes</h2>
+    <p>This was a lightweight, local concierge audit performed without Supabase or full repo ingest. For deep cross-file contradiction analysis we need SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY.</p>
+  </div>
+</body>
+</html>

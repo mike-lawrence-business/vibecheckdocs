@@ -1,0 +1,20 @@
+{
+  "files": 1,
+  "chunks": 1,
+  "items": [
+    {
+      "file": "sample-repo/README.md",
+      "text": "# Sample Repo\n\nThis is a sample docs repo for VibeCheck ingestion testing.\n\n## Overview\n\nVibeCheck helps catch documentation contradictions.\n\n## Usage\n\n- Install: npm install\n- Run: node scripts/ingest_sample.js",
+      "embedding": [
+        0.716,
+        0.927,
+        0.138,
+        0.349,
+        0.56,
+        0.771,
+        0.982,
+        0.193
+      ]
+    }
+  ]
+}

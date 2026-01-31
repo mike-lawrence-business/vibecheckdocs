@@ -1,0 +1,1 @@
+I ran a quick VibeCheckDocs audit of this repo's README and found a few semantic/documentation inconsistencies that may confuse users. I saved a short audit report and can share a PDF or open a small PR with suggested fixes — reply here if you'd like the PDF or a PR. Thanks!

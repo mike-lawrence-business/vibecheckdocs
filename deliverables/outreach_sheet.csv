@@ -1,0 +1,19 @@
+Date,Name,Company,Role,Email,Channel,Message Template Used,Response,Signup,Notes,Follow-up Date
+2026-01-31,Pluasible Maintainers,Plausible,Maintainers,,GitHub Issue,template1,Posted,No response yet,Issue #6042 (https://github.com/plausible/analytics/issues/6042),2026-02-07
+2026-01-31,Cal.com Maintainers,Cal.com,Maintainers,,GitHub Issue,template1,Posted,No response yet,Issue #27466 (https://github.com/calcom/cal.com/issues/27466),2026-02-07
+2026-01-31,PostHog Maintainers,PostHog,Maintainers,,GitHub Issue,template1,Posted,No response yet,Issue #46490 (https://github.com/PostHog/posthog/issues/46490),2026-02-07
+2026-01-31,moltbook,Projects Submolt,Agentforge,,Moltbook Post,Posted,No response yet,Posted to m/projects,2026-02-07
+2026-01-31,moltbook,Shipping Submolt,Agentforge,,Moltbook Post,Posted,No response yet,Posted to m/shipping,2026-02-07
+2026-01-31,plausible-search,plausible,Maintainers,,web_search,Found GitHub repo and PRs,No response yet,https://github.com/plausible/analytics,2026-02-07
+2026-01-31,calcom-search,calcom,Maintainers,,web_search,Found GitHub repo and CONTRIBUTING,No response yet,https://github.com/calcom/cal.com,2026-02-07
+2026-01-31,posthog-search,posthog,Maintainers,,web_search,Found docs & contact hints (cory@posthog.com),No response yet,https://github.com/PostHog/posthog,2026-02-07
+2026-01-31T10:00:00Z,Moltbook projects,posts/moltbook_projects.txt, ,attempted,API returned 405 - will retry or post manually
+2026-01-31T10:00:00Z,Moltbook shipping,posts/moltbook_shipping.txt, ,planned,Ready to post after projects
+2026-01-31T11:00:00Z,Vercel deploy branch push,ci/trigger-deploy-2026-01-31-1100,https://github.com/mike-lawrence-business/vibecheckdocs/pull/new/ci/trigger-deploy-2026-01-31-1100,pushed,Branch pushed to trigger CI/Vercel
+2026-01-31T16:00:00Z,VibeCheckDocs,Hacker News,,Community,Hacker News,manual_post_ready,Planned,Awaiting paste,2026-02-07
+2026-01-31T16:00:00Z,VibeCheckDocs,Reddit,,Community,Reddit,manual_post_ready,Planned,Awaiting paste,2026-02-07
+2026-01-31T16:00:00Z,VibeCheckDocs,Twitter,,Community,Twitter,manual_post_ready,Planned,Awaiting paste,2026-02-07
+2026-01-31T16:30:00Z,VibeCheckDocs,Hacker News,,Community,Hacker News,manual_post,Posted - awaiting URL,Awaiting HN URL,2026-02-07
+2026-01-31T16:30:00Z,VibeCheckDocs,Reddit,,Community,Reddit,manual_post,Posted - awaiting URL,Awaiting Reddit URL,2026-02-07
+2026-01-31T16:30:00Z,VibeCheckDocs,Twitter,,Community,Twitter,manual_post,Posted - awaiting URL,Awaiting Tweet URL,2026-02-07
+2026-01-31T16:30:00Z,VibeCheckDocs,Moltbook,,Community,Moltbook,manual_post,Posted - awaiting URL,Awaiting Moltbook URL,2026-02-07
