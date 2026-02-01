@@ -13,19 +13,28 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
-      - name: Install dependencies
+      - name: Deploy logic
         run: |
-          cd apps/frontend || true
+          if [ -d "apps/frontend" ]; then
+            echo "HAS_FRONTEND=true" >> $GITHUB_ENV
+          else
+            echo "HAS_FRONTEND=false" >> $GITHUB_ENV
+          fi
+      - name: Install dependencies
+        if: env.HAS_FRONTEND == 'true'
+        run: |
+          cd apps/frontend
           if [ -f package-lock.json ]; then npm ci; else npm install; fi
       - name: Build
+        if: env.HAS_FRONTEND == 'true'
         run: |
-          cd apps/frontend || true
-          if [ -f package.json ]; then npm run build || true; fi
+          cd apps/frontend
+          npm run build || true
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v20
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-args: --prod --confirm
-          working-directory: ./apps/frontend
+          working-directory: ${{ env.HAS_FRONTEND == 'true' && 'apps/frontend' || '.' }}
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
